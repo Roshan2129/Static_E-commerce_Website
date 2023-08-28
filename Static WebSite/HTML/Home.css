@@ -1,0 +1,170 @@
+*{
+	margin:0px;
+	padding: 0px;
+	box-sizing: border-box;
+	font-family: arial;
+}
+/*formate the navigation bar*/
+nav{
+	width: 100%;
+	height: 75px;
+	background-color:rgb(183, 105, 204);
+	line-height: 75px;
+	padding: 0px 100px;
+	margin-bottom: 10px;
+	
+}
+/*formate the logo*/ 
+.logo{
+	float: left;
+	margin-right: 200px;
+}
+/*list out the navigation bar*/
+nav ul{
+	float: right;
+}
+
+nav ul li{
+	display: inline-block;
+	list-style: none;
+}
+nav ul li a{
+	color: rgb(29, 6, 4);
+	text-decoration: none;
+	font-size:18px;
+	text-transform: uppercase;
+	padding: 0px 32px;
+}
+/* change the style of effect*/
+nav ul li a:hover{
+	color: rgb(230, 205, 253);
+}
+/*fromating logo image*/
+.logo img{
+	width: 90px;
+	height: 60px;
+	margin-top: 5px;
+	cursor: pointer;
+	margin-left: 0;
+}
+
+.logo img:hover{
+	transform: translateY(-2px);
+}
+
+li:hover{
+	transform: translateY(-2px);
+}
+/*formating footer*/
+footer{
+	height: auto;
+	margin: auto;
+	width: 100%;
+	margin-top: 0;
+	text-align: center;
+	background-color: rgb(24, 11, 38);
+}
+/*formate the footer content*/
+.footer-content{
+	width: 100%;
+	height: auto;
+	margin: auto;
+	padding: 20px;
+}
+
+.footer-content h1{
+	text-align: center;
+	color: white;
+	font-size: 30px;
+	margin: 10px;
+}
+
+.footer-content ul li{
+	display: inline-block;
+	width: 30px;
+	height: 30px;
+	margin: 10px;
+	border-radius: 100%;
+	background-color: gray;
+}
+
+.footer-content a{
+	color: black;
+	display: block;
+	font-size: 20px;
+	cursor: pointer;
+}
+
+.footer-content i{
+	line-height: 30px;
+}
+
+.footer-content a:hover{
+	color:red;
+}
+
+.footer-button{
+	height: auto;
+	margin: auto;
+	bottom: 0px;
+	width: 100%;
+	text-align: center;
+	background-color: rgb(12, 2, 22);
+}
+
+.footer-button p{
+	padding-top: 30px;
+	padding-bottom: 30px;
+	text-align: center;
+	color: white;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 20px;
+
+}
+/*formate the image slider*/
+.slider 
+{
+width: 90%;
+height: 500px;
+margin: 20px auto;
+box-sizing: border-box;
+overflow: hidden;
+box-shadow: 5px 5px 10px grey;
+}
+
+.slider img 
+{
+width: 100%;
+height: 100%;
+}
+/*formate the time*/
+.time{
+	text-align: center;
+	font-size: 20px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	color: white;
+}
+/*formate the content of button*/
+.content button{
+	font-size: 20px;
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 50px;
+    margin: 20px;
+    margin-left: 650px;
+	margin-top: 20px;
+    background-color: white;
+}
+
+.content  button a{
+	text-decoration: none;
+	font-size: 20px;
+}
+
+.content button:hover{
+	background-color: rgb(210, 199, 199);
+    border: none;
+    transform: translatex(3px);
+
+}

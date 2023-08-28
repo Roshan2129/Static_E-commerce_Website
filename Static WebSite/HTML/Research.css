@@ -1,0 +1,48 @@
+*{
+    margin:0px;
+	padding: 0px;
+	box-sizing: border-box;
+}
+.imgn{
+    width: 90%;
+    height: auto;
+    margin-left: 100px;
+    
+}
+/*formatting the images*/
+.image111 img{
+    width:800px;
+    height: 400px;
+    margin-left: 21%;
+
+}
+.image112 img{
+    width:800px;
+    height: 350px;
+    margin-left: 21%;
+}
+p{
+    font-size: 20px;
+    margin-left: 15%;
+    margin-right: 15%;
+    text-align: justify;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.image222 img{
+    width:800px;
+    height: 400px;
+    margin-left: 21%;
+
+}
+.image223 img{
+    width:800px;
+    height: 350px;
+    margin-left: 21%;
+}
+p{
+    font-size: 20px;
+    margin-left: 15%;
+    margin-right: 15%;
+    text-align: justify;
+    font-family: Arial, Helvetica, sans-serif;
+}
